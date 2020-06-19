@@ -1,0 +1,24 @@
+<%- include("partials/header"); -%>
+<div class="contact-content">
+    <h1 id="contact-content-h1"><strong>Contact</strong></h1>
+    <p id="contact-content-p"> <%= contactContent %> </p>
+    <div class="contact-container">
+        <div class="grid-items icons">
+            <strong>Have some Questions ? </strong>
+            <br>
+            <img id="contact-img"src="/images/contact.png" alt="">
+    
+        </div>
+        <div class="grid-items newsletter">
+            <form class="">
+                <input class="form-control contact-input " type="text" placeholder="name" autofocus>
+                <input  class="form-control contact-input" type="email" placeholder="abc@xyz.com">
+                <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+
+</div>
+
+<%- include("partials/footer"); -%>

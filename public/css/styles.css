@@ -1,0 +1,215 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+
+.navbar {
+  position: relative;
+  /* position: absolute; */
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+  /* height: 60px; */
+  padding: 20px 50px;
+ 
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+   
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+   
+    width: 100%;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+  /*------------------------------------------------- Home Page CSS ------------------------------------------ */
+.main{
+ display: grid;
+ grid-template-columns: auto auto;
+  height: 690px;
+}
+.main-content{
+  /* text-align: center; */
+padding: 100px;
+padding-left: 150px;
+padding-top: 150px;
+text-align: left;
+/* height: 400px; */
+
+}
+#main-content-p{
+margin-bottom: 25px;
+}
+.main-h1{
+  font-size: 50px;
+  font-family: 'Merienda', cursive;
+  /* color: #3a47d5 ; */
+}
+#main-img{
+  position: relative;
+  /* left: 10px; */
+  padding: 15px;
+  padding-top: 70px;
+  height: 500px;
+  top:-450px;
+}
+#main-content-btn{
+  /* margin-top: 40px; */
+ 
+  padding: 10px 15px;
+  
+  border-radius:15px;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  color:white;
+}
+.post{
+  position: relative;
+ 
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  
+  width: 100%;
+  /* text-align: center; */
+ padding: 70px 250px ;
+  
+}
+.post p{
+  color:gray;
+  /* text-shadow: 2px 2px 4px #000000; */
+}
+.post-h1{
+   
+  text-align: center;
+  margin-bottom:50px;
+}
+#post-h1{
+  font-size: 70px;
+  font-family: 'Merienda', cursive;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#post-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-transform: capitalize;
+
+}
+#post-author{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+#post-content{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#try{
+  border:1px solid  #1abc9c;
+  border-left:  5px solid #1abc9c;
+  padding: 10px 15px 10px;
+  margin: 15px;
+  background:white;
+  
+
+
+}
+#try:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ /*------------------------------------------------- Compose Page CSS ------------------------------------------ */
+.compose-form{
+  padding:100px 400px ;
+}
+/*------------------------------------------------- Post Page CSS ------------------------------------------ */
+.Post{
+  padding:50px 400px ;
+}
+#Post-h1{
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+#Post-p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  color:gray;
+
+}
+#credits{
+  margin:15px 0 0 0 ;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+/*------------------------------------------------- About Page CSS ------------------------------------------ */
+#about-content{
+  text-align: center;
+  padding:60px 400px ;
+}
+#about-content-h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+
+}
+#about-content-p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  color:gray;
+ 
+}
+/*------------------------------------------------- Contact Page CSS ------------------------------------------ */
+.contact-content{
+  text-align: center;
+  padding:60px 400px ;
+}
+.contact-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#contact-content-h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+#contact-content-p{
+  color:gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+.newsletter{
+  margin-top: 15px;
+}
+.contact-input{
+  margin: 5px;
+}
+.icons{
+  margin-top: 10px;
+  text-align: center;
+}
+#contact-img{
+  height: 70px;
+  margin-top: 10px;
+  border-radius:50%;
+}

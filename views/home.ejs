@@ -1,0 +1,50 @@
+
+<%- include("partials/header"); -%>
+<div class="content">
+
+  <div class="container-fluid main">
+    
+      <div class="grid-item main-content">
+        <h1 class="main-h1">Words have no wings but they can fly a thousand miles. </h1>
+        <p id="main-content-p">Lorem ipsum,  deserunt vero architecto alias laborum ea, sunt dicta voluptatum minus ad.</p>
+         <a href="/about" id="main-content-btn" >Know More</a> 
+       
+      </div>
+      <div class="grid-item">
+        <img id ="main-img" src="/images/Home.png" alt="">
+      </div>
+    </div>
+   
+
+ 
+  
+            <!---------------------------------------- Posts Section --------------------------------------- -->
+
+   <div class="container post">
+ 
+    <div class="post-h1">
+      <h1 id="post-h1" >Our Posts</h1>
+    </div>
+     
+      
+    
+    <%  Posts.forEach(function(post){ %>
+   <div id="try">
+      <h1 id="post-title"> <strong><%=post.title%></strong>  </h1>
+      <p   id="post-author"><small><strong>by </strong><%= post.author %></small></p>
+      <p  id="post-content">
+      <%=post.content.substring(0, 100) + " ..."%>
+      <a href="/posts/<%=post._id%>">Read More</a>
+      </p>
+    </div>
+    
+ 
+
+      <% }) %> 
+
+    </div>
+  </div>
+
+
+
+<%- include("partials/footer"); -%>
